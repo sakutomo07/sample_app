@@ -21,6 +21,7 @@ test:
   database: db/test.sqlite3
 
 production:
+  <<: *default
   encoding: utf8  
   adapter: postgresql  
   port: 5432  
