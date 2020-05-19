@@ -24,7 +24,7 @@ production:
   encoding: utf8  
   adapter: postgresql  
   port: 5432  
-  username: username  
-  host: your_host
-  database: your_database
-  password: your_password
+  username: omiexxottaijbl  
+  host: ec2-50-17-90-177.compute-1.amazonaws.com
+  database: dbblaelbrhe7a5
+  password: 5d2e4912d9b3bec4f944a248aaaf9ab9672997a3ddddbb7734c71ed8a7304cd9
