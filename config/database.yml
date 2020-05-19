@@ -22,14 +22,17 @@ test:
 
 production:
   <<: *default
-  # encoding: utf8  
-  port: 5432  
-  # username: omiexxottaijbl  
-  host: ec2-50-17-90-177.compute-1.amazonaws.com
-  # database: dbblaelbrhe7a5
-  # password: 5d2e4912d9b3bec4f944a248aaaf9ab9672997a3ddddbb7734c71ed8a7304cd9
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: agile-forest-55575
+  # encoding: utf8  
+  # port: 5432  
+  # username: omiexxottaijbl  
+  # host: ec2-50-17-90-177.compute-1.amazonaws.com
+  # database: dbblaelbrhe7a5
+  # password: 5d2e4912d9b3bec4f944a248aaaf9ab9672997a3ddddbb7734c71ed8a7304cd9
+  #adapter: postgresql
+  #encoding: unicode
+  #pool: 5
+  #database: agile-forest-55575
   # url: https://agile-forest-55575.herokuapp.com/
